@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Paradise Nursery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body bgcolor="Pink" class="cart-page">
+    <header>
+        <div class="container">
+            <h1><center><font color="RED"><font color="Red">Paradise Nursery</font></center></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="cart-items">
+            <div class="cart-item">
+                <img src="https://images.pexels.com/photos/730341/pexels-photo-730341.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hibiscus Plant Image">
+                <div class="item-details">
+                    <h3>HIBISCUS</h3>
+                    <p>Unit Price: $19.99</p>
+                    <div class="quantity">
+                        <button class="btn-decrease">-</button>
+                        <span class="item-quantity">1</span>
+                        <button class="btn-increase">+</button>
+                    </div>
+                    <p>Total: $19.99</p>
+                    <button class="btn-delete">Delete</button>
+                </div>
+                <div class="cart-item">
+                    <img src="https://images.pexels.com/photos/10048323/pexels-photo-10048323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Basil Plant Image">
+                    <div class="item-details">
+                        <h3>BASIL</h3>
+                        <p>Unit Price: $20.99</p>
+                        <div class="quantity">
+                            <button class="btn-decrease">-</button>
+                            <span class="item-quantity">1</span>
+                            <button class="btn-increase">+</button>
+                        </div>
+                        <p>Total: $19.99</p>
+                        <button class="btn-delete">Delete</button>
+                    </div>
+                    <div class="cart-item">
+                        <img src="ttps://images.pexels.com/photos/13666672/pexels-photo-13666672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Neem Plant Image">
+                        <div class="item-details">
+                            <h3>NEEM</h3>
+                            <p>Unit Price: $20.99</p>
+                            <div class="quantity">
+                                <button class="btn-decrease">-</button>
+                                <span class="item-quantity">1</span>
+                                <button class="btn-increase">+</button>
+                            </div>
+                            <p>Total: $19.99</p>
+                            <button class="btn-delete">Delete</button>
+                        </div>
+                        <div class="cart-item">
+                            <img src="https://images.pexels.com/photos/4210786/pexels-photo-4210786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Rosemerry Plant Image">
+                            <div class="item-details">
+                                <h3>ROSEMERRY</h3>
+                                <p>Unit Price: $10.99</p>
+                                <div class="quantity">
+                                    <button class="btn-decrease">-</button>
+                                    <span class="item-quantity">1</span>
+                                    <button class="btn-increase">+</button>
+                                </div>
+                                <p>Total: $19.99</p>
+                                <button class="btn-delete">Delete</button>
+                            </div>
+                            <div class="cart-item">
+                                <img src="https://images.pexels.com/photos/214165/pexels-photo-214165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mint Plant Image">
+                                <div class="item-details">
+                                    <h3>MINT</h3>
+                                    <p>Unit Price: $20.99</p>
+                                    <div class="quantity">
+                                        <button class="btn-decrease">-</button>
+                                        <span class="item-quantity">1</span>
+                                        <button class="btn-increase">+</button>
+                                    </div>
+                                    <p>Total: $19.99</p>
+                                    <button class="btn-delete">Delete</button>
+                                </div>
+                                <div class="cart-item">
+                                    <img src="https://images.pexels.com/photos/129574/pexels-photo-129574.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Lemon Plant Image">
+                                    <div class="item-details">
+                                        <h3>LEMON</h3>
+                                        <p>Unit Price: $20.99</p>
+                                        <div class="quantity">
+                                            <button class="btn-decrease">-</button>
+                                            <span class="item-quantity">1</span>
+                                            <button class="btn-increase">+</button>
+                                        </div>
+                                        <p>Total: $19.99</p>
+                                        <button class="btn-delete">Delete</button>
+                                    </div>
+            </div>
+        </section>
+
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Total Items: <span id="total-items">0</span></p>
+            <p>Total Cost: <span id="total-cost">$0.00</span></p>
+            <button class="btn-continue-shopping">Continue Shopping</button>
+            <button class="btn-checkout">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

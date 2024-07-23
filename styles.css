@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.landing {
+    background-image: url('nursary2.jfif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #540ca7;
+    font-family: Arial, sans-serif;
+}
+
+.landing-text {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(193, 224, 17, 0.6);
+    border-radius: 10px;
+}
+
+.landing-text h1 {
+    font-size: 3rem;
+}
+
+.landing-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-get-started {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9fee0d;
+    color: #250333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover {
+    background-color: #60b90c;
+}
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Example font-family */
+    line-height: 1.6; /* Example line height */
+    background-color: #45da17; /* Example background color */
+}
+
+header {
+    background-color: #18e63a; /* Example background color */
+    color: #2213ee; /* Example text color */
+    text-align: center;
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+header h1 {
+    font-size: 2em; /* Example font size */
+}
+
+main {
+    max-width: 800px; /* Example maximum width */
+    margin: 20px auto; /* Center the content */
+    background-color: #da1397fff; /* Example background color */
+    padding: 20px; /* Example padding */
+    border-radius: 8px; /* Example border radius */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Example box shadow */
+}
+
+section {
+    margin-bottom: 20px; /* Space between paragraph and button */
+}
+
+.button {
+    display: inline-block;
+    background-color: #d2e909; /* Example button color */
+    color: #c2f313; /* Example text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    border-radius: 4px; /* Example border radius */
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ddf50a; /* Example hover color */
+}
+//styling linked pages
+/* Product Page Background */
+.product-content {
+    background-color: #0a18df; /* Example background color */
+}
+
+/* Cart Page Background */
+.cart-summary {
+    background-color: #e2129d; /* Example background color */
+}
+
