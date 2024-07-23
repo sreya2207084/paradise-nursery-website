@@ -1,2 +1,2 @@
 # paradise-nursery-website
-website for online ecommerce
+https://github.com/sreya2207084/paradise-nursery-website
